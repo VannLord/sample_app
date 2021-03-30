@@ -1,0 +1,14 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to t "sample_app.index.sample_app", "#", id: "logo" %>
+    <nav>
+      <ul class="nav nvabar-nav navbar-right " style="display:flex">
+        <li><%= link_to t "sample_app.index.home", "#" %></li>
+        <li><%= link_to t "sample_app.index.help", "#" %></li>
+        <li><%= link_to t "sample_app.index.log_in", "#" %></li>
+        <li><%= link_to t "sample_app.index.en", locale: :en %></li>
+        <li><%= link_to t "sample_app.index.vi", locale: :vi %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

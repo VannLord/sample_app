@@ -1,0 +1,4 @@
+users:
+  email:
+    max_length: 15
+    mix_length: 7

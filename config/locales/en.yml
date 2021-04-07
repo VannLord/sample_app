@@ -9,11 +9,12 @@ en:
       this_is: "This is the home page for"
       ror_tu: Ruby on Rail Tutorial
       sa: "sample application"
-      sign_up: "Sign up now !"
+      sign_up: " Sign up now !"
       en: "English"
       vi: "Vietnamese"
       static_pages_help: "StaticPages#help"
       find_static_pages_help: "Find me in app/views/static_pages/help.html.erb"
+      ror_tu_app: "Ruby on Rails Tutorial Sample Application"
       confirmation: "Confirm password "
       create: "Create"
       error:
@@ -25,3 +26,12 @@ en:
       email: "Email"
       password: "Password"
       nil_user: "User does not exist"
+      invalid_account: "Invalid email password combination !!"
+      users: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      language: "Language"
+      log_out: "Log out"
+      new_user?: "New User ?"
+

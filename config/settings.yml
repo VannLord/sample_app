@@ -1,4 +1,6 @@
 users:
   email:
     max_length: 255
-    mix_length: 7
+    min_length: 7
+  password:
+    min_length: 6

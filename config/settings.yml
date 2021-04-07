@@ -1,4 +1,4 @@
 users:
   email:
-    max_length: 15
+    max_length: 255
     mix_length: 7

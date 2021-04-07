@@ -8,13 +8,14 @@ class UsersController < ApplicationController
 
     return if @user
 
-    flash[:danger]= t "sample_app.index.nil_user"
+    flash[:danger] = t "sample_app.index.nil_user"
     redirect_to new_user_path
   end
 
   def create
     @user = User.new(user_params)
     if @user.save
+      log_in @user
       flash[:sucess] = t "sample_app.index.welcome"
       redirect_to @user
     else

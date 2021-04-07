@@ -41,3 +41,4 @@ vi:
       pls_login: "Hãy đăng nhập"
       profile_updated: "Hồ sơ đã cập nhật"
       not_authenticated: "Bạn không có quyền hạn này"
+      hi_and_activation: "Xin chào% {name} Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"

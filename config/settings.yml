@@ -4,3 +4,6 @@ users:
     min_length: 7
   password:
     min_length: 6
+micropost:
+  content:
+    max_length: 140

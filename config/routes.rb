@@ -9,5 +9,6 @@
     resources :account_activations, only: :edit
     resources :users
     resources :password_resets, except: [:index, :show, :destroy]
+    resources :microposts, only: [:create, :destroy]
   end
 end

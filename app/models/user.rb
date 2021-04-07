@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   before_save :downcase_email
   before_create :create_activation_digest
   attr_accessor :remember_token, :activation_token, :reset_token
@@ -61,6 +62,10 @@ class User < ApplicationRecord
 
     errors.add :password, I18n.t("password.not_blank")
     true
+  end
+
+  def feed
+    microposts
   end
 
   private

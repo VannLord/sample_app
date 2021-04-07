@@ -17,6 +17,10 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+  def show
+    @microposts = @user.microposts.paginate(page: params[:page])
+  end
+
   def create
     @user = User.new(user_params)
     if @user.save
@@ -29,8 +33,6 @@ class UsersController < ApplicationController
   end
 
   def edit; end
-
-  def show; end
 
   def update
     if @user.update(user_params)
@@ -69,13 +71,5 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "sample_app.index.not_authenticated"
     redirect_to root_path
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "sample_app.index.pls_login"
-    redirect_to login_url
   end
 end

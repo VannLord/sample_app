@@ -8,8 +8,7 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by email: params[:session][:email].downcase
     if user&.authenticate params[:session][:password]
-      log_in user
-      redirect_to user
+      handle_logged_in user
     else
       flash.now[:danger] = t "sample_app.index.invalid_account"
       render :new

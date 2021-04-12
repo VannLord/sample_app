@@ -31,3 +31,4 @@ vi:
       language: "Ngôn ngữ"
       log_out:  "Đăng xuất"
       new_user?: "Người dùng mới ?"
+      remember_me: "Ghi nhớ đăng nhập"

@@ -38,6 +38,9 @@ class User < ApplicationRecord
   validates :email, presence: true,
     length: {maximum: Settings.users.email.max_length},
     format: {with: VALID_EMAIL_REGEX}
+  validates :password, presence: true,
+             length: {minimum: Settings.users.password.min_length},
+             allow_nil: true
 
   def downcase_email
     email.downcase!

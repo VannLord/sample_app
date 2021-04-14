@@ -35,3 +35,13 @@ en:
       log_out: "Log out"
       new_user?: "New User ?"
       remember_me: "Remember me on this computer"
+      all_users: "All Users"
+      edit: "Edit"
+      change: "Change"
+      save_changes: "Save changes"
+      user_deleted: "User deleted"
+      delete_fail: "Delete fail !"
+      pls_login: "Please log in"
+      profile_updated: "Profile updated"
+      not_authenticated: "You're not authenticated !"
+

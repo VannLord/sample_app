@@ -44,4 +44,10 @@ en:
       pls_login: "Please log in"
       profile_updated: "Profile updated"
       not_authenticated: "You're not authenticated !"
+      hi_and_activation: "Hi %{name} Welcome to the Sample App! Click on the link below to activate your account:"
+      activated: "Accoutn activated"
+      invalid_active_link: "Invalid activation link"
+      not_activated: "Account not activated.Check email activation link."
+      check_mail: "Please check your email to activate your account."
+      activation: "Account activation"
 

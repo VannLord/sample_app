@@ -40,7 +40,7 @@ en:
       change: "Change"
       save_changes: "Save changes"
       user_deleted: "User deleted"
-      delete_fail: "Delete fail !"
+      delete_fail: "Deleted fail !"
       pls_login: "Please log in"
       profile_updated: "Profile updated"
       not_authenticated: "You're not authenticated !"
@@ -50,6 +50,10 @@ en:
       not_activated: "Account not activated.Check email activation link."
       check_mail: "Please check your email to activate your account."
       activation: "Account activation"
+      view_profile: "View my profile"
+      confirm: "You sure ?"
+      delete: "Delete"
+      post: "Post"
   password:
     not_blank: "can't be blank"
     be_reset: "Password has been reset."
@@ -61,4 +65,12 @@ en:
     search: "Search"
     click_link: "To reset your password click the link below"
     ignore: "This link will expire in 2 hours. If your don't request, ignore this email"
+  micropost:
+    created: "Micropost created!"
+    deleted: "Micropost deleted!"
+    invalid: "Micropost invalid!"
+    posted_ago: "Posted %{time} ago"
+    max_size: "Maximum file size is 5MB. Please choose a smaller file."
+    feed: "Micropost Feed"
+    compose_new: "Compose new micropost..."
 
